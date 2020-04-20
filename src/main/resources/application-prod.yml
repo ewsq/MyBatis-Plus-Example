@@ -1,0 +1,20 @@
+#spring
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/mybatis-plus-example?serverTimezone=GMT%2B8
+    username: root
+    #    password: kU#m5eHY5iTiQj#q
+    password: 12345678
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logback:
+  logDir: log/dev
+
+logging:
+  level:
+    com.fengwenyi.mybatis_plus_example.service.impl: trace
+    com.fengwenyi.mybatis_plus_example.controller: trace

@@ -15,7 +15,7 @@
  @author Erwin Feng
 */
 
-CREATE DATABASE if not exists `mybatis-plus-example` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
+CREATE DATABASE if not exists `mybatis-plus-example` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
 USE `mybatis-plus-example`;
 
 SET NAMES utf8mb4;
